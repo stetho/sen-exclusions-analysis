@@ -20,12 +20,12 @@ peers are taking part in, because they have an unmet need that nobody has
 identified. After exclusion, with no school to go to and too young to work,
 the child gravitates toward others in the same situation. Some of those
 people are a bad influence. Some of those situations lead to police contact.
-Under 18, that means social care involvement. And at that point — often for
-the first time — someone refers the child to CAMHS, and the diagnosis arrives.
+Under 18, that means social care involvement. And at that point - often for
+the first time - someone refers the child to CAMHS, and the diagnosis arrives.
 
 By then, the child has a criminal record before the age of 18. Getting their
 life back on track is a massive struggle. All because they didn't receive
-support they should have received automatically — support that would have
+support they should have received automatically - support that would have
 cost far less than the social care, criminal justice, and long-term
 consequences that follow.
 
@@ -50,7 +50,7 @@ And, once deprivation is controlled for:
 
 > Is the exclusion of children with *no identified* SEN a better predictor
 > of youth justice referrals than the exclusion of children with identified
-> SEN — consistent with a pipeline driven by *undiagnosed* need?
+> SEN - consistent with a pipeline driven by *undiagnosed* need?
 
 ---
 
@@ -61,8 +61,8 @@ All data is publicly available from UK government sources.
 | Dataset | Source | What it provides |
 |---|---|---|
 | Suspensions and permanent exclusions by pupil characteristic | [DfE / Explore Education Statistics](https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england) | Permanent exclusion and suspension rates by SEN status at LA level, 2019/20-2024/25 |
-| Youth Justice Statistics — First Time Entrants | [Ministry of Justice / Youth Justice Board](https://www.gov.uk/government/statistics/youth-justice-statistics) | Rate of child first-time entrants to the youth justice system per 100,000 of 10-17 population, by LA, 2014-2024 |
-| English Indices of Deprivation 2019 | [MHCLG](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) | IMD average score by local authority — deprivation control variable |
+| Youth Justice Statistics - First Time Entrants | [Ministry of Justice / Youth Justice Board](https://www.gov.uk/government/statistics/youth-justice-statistics) | Rate of child first-time entrants to the youth justice system per 100,000 of 10-17 population, by LA, 2014-2024 |
+| English Indices of Deprivation 2019 | [MHCLG](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) | IMD average score by local authority - deprivation control variable |
 | Special Educational Needs in England 2024/25 | [DfE / Explore Education Statistics](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2024-25) | School-level SEN counts by primary need type, aggregated to LA level |
 
 Download instructions and exact filenames are in `data/raw/README.md`.
@@ -75,7 +75,7 @@ Download instructions and exact filenames are in `data/raw/README.md`.
 
 Children with SEN support are permanently excluded at **nearly 5 times the rate**
 of children with no identified SEN (median 0.085% vs 0.017% across 116 local
-authorities). Children with EHC plans — who have the most formal protection —
+authorities). Children with EHC plans - who have the most formal protection -
 are excluded at 1.8 times the no-SEN rate.
 
 This inequality is the starting point. It is well documented, and it is
@@ -92,7 +92,7 @@ authorities.
 
 Any relationship between exclusion and justice referrals has to be assessed
 against this backdrop. Crucially, deprivation is not the same thing as a
-learning disability — the absence of a link between deprivation and SEN
+learning disability - the absence of a link between deprivation and SEN
 prevalence in the data is itself meaningful.
 
 ### 3. Identified SEN exclusion rates do not predict youth justice referrals
@@ -105,7 +105,7 @@ to the model. This is not the result we expected, and it is worth understanding.
 
 This null result prompted a reframe of the hypothesis. The children in the
 pipeline are probably not the ones already coded as SEN in school census data.
-They are the ones who have not yet been identified — children whose disruptive
+They are the ones who have not yet been identified - children whose disruptive
 or aggressive behaviour is the expression of an unmet learning need, not a
 character flaw, but who get excluded before anyone names what is actually
 going on.
@@ -113,7 +113,7 @@ going on.
 In the data, these children appear in the *no identified SEN* category at
 the time of exclusion. Consistent with this, the **suspension rate for children
 with no identified SEN** shows a statistically significant positive correlation
-with youth justice referral rates (r=0.20, p=0.035) — the only exclusion
+with youth justice referral rates (r=0.20, p=0.035) - the only exclusion
 measure that does.
 
 ### 5. London is a distinct case
@@ -121,8 +121,8 @@ measure that does.
 London boroughs cluster strongly in the low-exclusion / high-FTE quadrant.
 They exclude fewer SEN children than comparable deprived areas outside London,
 but have some of the highest youth justice referral rates in England. This
-suggests a parallel pathway — gang recruitment, county lines, the specific
-social ecology of inner-city London — that operates largely independently of
+suggests a parallel pathway - gang recruitment, county lines, the specific
+social ecology of inner-city London - that operates largely independently of
 school exclusion.
 
 ### 6. Some local authorities are dramatically different from their peers
@@ -132,7 +132,7 @@ Blackburn with Darwen has a deprivation score (36.0) comparable to Nottingham
 Nottingham's 374. Something is working in Blackburn that is not captured by
 any of our variables. Whether it is specific diversion programmes, community
 structures, or restorative justice approaches is not answerable from this
-dataset — but it is exactly the question that policy makers should be asking.
+dataset - but it is exactly the question that policy makers should be asking.
 
 ---
 
@@ -153,7 +153,7 @@ dataset.
 
 Linking them would not be technically difficult. It would require a policy
 decision to treat this as a priority. The cost of not doing it is borne by
-the children who fall through the gap — excluded, undiagnosed, and criminalised
+the children who fall through the gap - excluded, undiagnosed, and criminalised
 before they are old enough to vote.
 
 ---
@@ -169,7 +169,7 @@ notebooks/
   05_outlier_analysis.ipynb          Quadrant analysis, residuals, case studies
 
 data/
-  raw/       Downloaded source files (not committed — see data/raw/README.md)
+  raw/       Downloaded source files (not committed - see data/raw/README.md)
   processed/ Cleaned CSVs produced by notebook 01 (not committed)
 
 outputs/     Charts and tables generated by the notebooks
@@ -203,12 +203,12 @@ quality of alternative provision after exclusion, and the presence of gangs
 and county lines all play independent roles.
 
 The goal is not to claim a single cause. It is to establish whether exclusion
-is a meaningful risk factor in a pathway — something that can be intervened on
-at a specific, identifiable point — and to be honest about where the available
+is a meaningful risk factor in a pathway - something that can be intervened on
+at a specific, identifiable point - and to be honest about where the available
 data cannot take us.
 
 ---
 
 ## Author
 
-Steve Thompson — [stetho.me](https://stetho.me) | [GitHub](https://github.com/stetho)
+Steve Thompson - [stetho.me](https://stetho.me) | [GitHub](https://github.com/stetho)
