@@ -8,8 +8,8 @@ higher rates of young people entering the youth justice system.
 
 My wife is a social worker in a child protection team in inner London. Over
 time, a pattern became impossible to ignore: a significant proportion of the
-children she works with — children who have become known to social services
-after contact with the police — are subsequently diagnosed with a learning
+children she works with - children who have become known to social services
+after contact with the police - are subsequently diagnosed with a learning
 disability. Dyslexia. ADHD. Autism. Sometimes more than one.
 
 The pattern goes like this. A child is excluded from school, usually for
